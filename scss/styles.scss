@@ -512,6 +512,9 @@ footer {
     padding: 15px;
     border-radius: 3px;
     text-align: left;
+    > div{
+        display: inline-block;
+    }
 
     h3 {
         font-size: 1.5em;
@@ -526,6 +529,11 @@ footer {
         font-weight: 300;
         color: #7e8890;
         margin: 0 0 15px 0;
+    }
+    >img{
+        height: 50px;
+        margin-bottom: 30px;
+        margin-right: 10px;
     }
 
     p {
@@ -866,6 +874,7 @@ footer {
 
     .vtimeline-content {
         margin-left: 70px;
+        
     }
 
 }
@@ -977,6 +986,11 @@ footer {
     .social {
         text-align: center;
     }
+    .vtimeline-content{
+        >img{
+            display: none;
+        }
+    }
 
 }
 
@@ -997,5 +1011,6 @@ footer {
             padding: 5px 10px;
         }
     }
+    
 
 }

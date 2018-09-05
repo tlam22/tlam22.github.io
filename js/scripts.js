@@ -96,7 +96,7 @@
     particlesJS("lead", {
         "particles": {
           "number": {
-            "value": 380,
+            "value": 200,
             "density": {
               "enable": true,
               "value_area": 800
@@ -135,7 +135,7 @@
             "random": true,
             "anim": {
               "enable": false,
-              "speed": 40,
+              "speed": 30,
               "size_min": 0.1,
               "sync": false
             }
